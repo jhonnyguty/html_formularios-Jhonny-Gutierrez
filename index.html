@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML_Formularios</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+          <legend>Rellenar</legend>
+          <input type='radio' name='idioma' value='idiomaingles'> Inglés   
+          <input type='radio' name='idioma' value='idiomaaleman'> Alemán   
+          <input type='radio' name='idioma' value='idiomafrances'> Francés   
+          <br/>
+          <select name='conector' >
+            <option value='usb'>USB</option>
+            <option value='paralelo'>Paralelo</option>
+            <option value='ps2'>PS2</option>
+          </select>
+          
+          Nombre<input type='text' name='nombre'> 
+          Apellidos<input type='text' name='apellidos'> 
+          <br/>
+        </fieldset>
+        <fieldset>
+          <legend>Indique sus preferencias por favor</legend>
+          <select name='sexo' multiple='multiple'>
+            <option value='hombre'>Hombre</option>
+            <option value='mujer'>Mujer</option>
+          </select>
+        
+          <input type='checkbox' name='sexo' value='sexomujer'> Mujer  
+          <input type='checkbox' name='sexo' value='sexohombre'> Hombre  
+        
+          Elija una fecha:<input type="date">  
+        </fieldset>
+        </form>
+</body>
+</html>
